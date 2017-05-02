@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\mdossantos2015\AndroidStudioProjects\LokaCar\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3121d698152e8123e0169fc32b4ba2ac18d2bc2f">
+        <dex dex="C:\Users\mdossantos2015\AndroidStudioProjects\LokaCar\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_f0e552e4b68e371383ccb1b5357df21ed3625a02\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mdossantos2015\AndroidStudioProjects\LokaCar\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="C:\Users\mdossantos2015\AndroidStudioProjects\LokaCar\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_9c283e37b6f76e5518199d350dcb12746bc68a28\classes.dex" />
+    </item>
+
+</items>
