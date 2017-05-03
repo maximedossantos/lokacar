@@ -3,11 +3,20 @@
 
     <item
         is-multidex="true"
+        jar="C:\Users\mdossantos2015\.android\build-cache\e573b60a8e6c5662d73afa05a9c57a7c6a83d4dd\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="C:\Users\mdossantos2015\AndroidStudioProjects\LokaCar\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_69ba6c58c5f3e312c91db9204b99b26bf1a8bd29\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\mdossantos2015\AndroidStudioProjects\LokaCar\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="75baa21f39b4464907abb9e08dd9241f17c5cc56">
+        sha1="aedb41a62142dd8222020286a3500ec92539ba5d">
         <dex dex="C:\Users\mdossantos2015\AndroidStudioProjects\LokaCar\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_f0e552e4b68e371383ccb1b5357df21ed3625a02\classes.dex" />
     </item>
     <item
@@ -18,15 +27,6 @@
         revision="25.0.0"
         sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
         <dex dex="C:\Users\mdossantos2015\AndroidStudioProjects\LokaCar\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_9c283e37b6f76e5518199d350dcb12746bc68a28\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\mdossantos2015\.android\build-cache\e573b60a8e6c5662d73afa05a9c57a7c6a83d4dd\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
-        <dex dex="C:\Users\mdossantos2015\AndroidStudioProjects\LokaCar\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_69ba6c58c5f3e312c91db9204b99b26bf1a8bd29\classes.dex" />
     </item>
 
 </items>
