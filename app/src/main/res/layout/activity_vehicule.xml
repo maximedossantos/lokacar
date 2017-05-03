@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageVehicule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/categorieVehicule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Catégorie"/>
+
+    <TextView
+        android:id="@+id/modelVehicule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Model"/>
+
+    <EditText
+        android:id="@+id/kmVehicule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Kilométrage"/>
+
+    <TextView
+        android:id="@+id/energieVehicule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Energie"/>
+
+    <TextView
+        android:id="@+id/nbplace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre de Place"/>
+
+    <EditText
+        android:id="@+id/tarifHoraireVehicule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Tarif Horaire /H"/>
+
+    <TextView
+        android:id="@+id/anneeVehicule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:hint="Année"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sauvegarder"/>
+
+
+</LinearLayout>

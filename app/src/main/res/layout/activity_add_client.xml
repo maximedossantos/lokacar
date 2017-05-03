@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/nameClient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nom"/>
+
+    <EditText
+        android:id="@+id/surnameClient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Prenom"/>
+
+    <EditText
+        android:id="@+id/birthDateClient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:hint="Date de naissance"/>
+
+    <EditText
+        android:id="@+id/emailClient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="Email"/>
+    
+    <Button
+        android:id="@+id/saveButtonClient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sauvegarder"/>
+
+</LinearLayout>

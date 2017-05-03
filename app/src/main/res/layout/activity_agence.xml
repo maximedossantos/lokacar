@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/nameAgence"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nom  "/>
+
+    <TextView
+        android:id="@+id/adressAgence"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adresse"/>
+
+    <TextView
+        android:id="@+id/phoneAgence"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Numero de telephone"/>
+
+    <TextView
+        android:id="@+id/emailAgence"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"/>
+
+
+
+</LinearLayout>
