@@ -13,7 +13,7 @@ import fr.projet.lokacar.models.Client;
  * Created by agirardeau2015 on 03/05/2017.
  */
 
-public class addClientActivity extends AppCompatActivity {
+public class AddClientActivity extends AppCompatActivity {
 
     private EditText editTextName,editTextSurname,editTextBirthDate,editTextEmail;
     private Button buttonSave;
