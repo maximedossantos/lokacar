@@ -7,13 +7,32 @@ package fr.projet.lokacar.models;
 public class Vehicule {
 
 
+    private String id;
     private String marque;
     private String model;
-    private Double km;
+    private Double kilometre;
     private String energie;
     private int nbPlace;
     private Double tarifHoraire;
     private String annee;
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getDin() {
+        return din;
+    }
+
+    public void setDin(String din) {
+        this.din = din;
+    }
+
+    private String din;
 
     public String getMarque() {
         return marque;
@@ -31,12 +50,12 @@ public class Vehicule {
         this.model = model;
     }
 
-    public Double getKm() {
-        return km;
+    public Double getKilometre() {
+        return kilometre;
     }
 
-    public void setKm(Double km) {
-        this.km = km;
+    public void setKilometre(Double kilometre) {
+        this.kilometre = kilometre;
     }
 
     public String getEnergie() {
