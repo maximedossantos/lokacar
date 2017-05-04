@@ -8,3 +8,6 @@
 /captures
 .externalNativeBuild
 .idea/modules.xml
+build/generated/mockable-android-25.jar
+build/intermediates/dex-cache/cache.xml
+local.properties

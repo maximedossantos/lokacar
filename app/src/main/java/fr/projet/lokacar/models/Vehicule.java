@@ -1,16 +1,18 @@
 package fr.projet.lokacar.models;
 
+import java.io.Serializable;
+
 /**
  * Created by mdossantos2015 on 02/05/2017.
  */
 
-public class Vehicule {
+public class Vehicule implements Serializable {
 
 
     private String id;
     private String marque;
     private String model;
-    private Double kilometre;
+    private int kilometre;
     private String energie;
     private int nbPlace;
     private Double tarifHoraire;
@@ -50,11 +52,11 @@ public class Vehicule {
         this.model = model;
     }
 
-    public Double getKilometre() {
+    public int getKilometre() {
         return kilometre;
     }
 
-    public void setKilometre(Double kilometre) {
+    public void setKilometre(int kilometre) {
         this.kilometre = kilometre;
     }
 
