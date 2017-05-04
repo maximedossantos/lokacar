@@ -5,6 +5,7 @@ package fr.projet.lokacar.models;
  */
 
 public class Client {
+
     private int idClient;
     private String name;
     private String surname;

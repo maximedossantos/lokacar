@@ -1,4 +1,4 @@
-package fr.projet.lokacar;
+package fr.projet.lokacar.ui.client;
 
 import android.content.DialogInterface;
 import android.os.Bundle;
@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+import fr.projet.lokacar.R;
 import fr.projet.lokacar.models.Client;
 
 /**
