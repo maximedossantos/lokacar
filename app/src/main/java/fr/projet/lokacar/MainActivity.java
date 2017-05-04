@@ -7,6 +7,8 @@ import android.os.Bundle;
 import java.util.Timer;
 import java.util.TimerTask;
 
+import fr.projet.lokacar.home.HomeActivity;
+
 public class MainActivity extends AppCompatActivity {
 
     private Timer timer;
