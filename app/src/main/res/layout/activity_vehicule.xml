@@ -15,13 +15,19 @@
         android:hint="Catégorie"/>
 
     <TextView
+        android:id="@+id/marqueVehicule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Marque"/>
+
+    <TextView
         android:id="@+id/modelVehicule"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Model"/>
 
     <EditText
-        android:id="@+id/kmVehicule"
+        android:id="@+id/kilometreVehicule"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="number"
@@ -34,7 +40,7 @@
         android:hint="Energie"/>
 
     <TextView
-        android:id="@+id/nbplace"
+        android:id="@+id/nbPlaceVehicule"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Nombre de Place"/>

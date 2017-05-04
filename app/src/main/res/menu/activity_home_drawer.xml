@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Liste Vehicule">
+        <menu>
+            <item
+                android:id="@+id/nav_listVehicule"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Tout les vehicules" />
+            <item
+                android:id="@+id/nav_listVehiculeDisponible"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Véhicules disponibles" />
+            <item
+                android:id="@+id/nav_listVehiculeLoue"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Véhicules loués" />
+        </menu>
+    </item>
+
+    <!--<group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_listLocation"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Location en cours" />
+
+    </group>-->
+
+</menu>
