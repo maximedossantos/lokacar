@@ -216,3 +216,4 @@ pip-log.txt
 .mr.developer.cfg
 local.properties
 app/src/main/AndroidManifest.xml
+local.properties
