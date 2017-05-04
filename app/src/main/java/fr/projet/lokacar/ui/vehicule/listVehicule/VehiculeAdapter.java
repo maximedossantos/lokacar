@@ -1,4 +1,4 @@
-package fr.projet.lokacar.ui.home.listVehicule;
+package fr.projet.lokacar.ui.vehicule.listVehicule;
 
 import android.content.Context;
 import android.support.annotation.LayoutRes;

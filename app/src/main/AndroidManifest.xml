@@ -26,7 +26,8 @@
         <activity android:name=".ui.home.HomeActivity"
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity android:name=".ConnexionActivity"></activity>
-        <activity android:name=".AddVehiculeActivity"></activity>
+        <activity android:name=".ui.vehicule.VehiculeActivity"></activity>
+        <activity android:name=".ui.vehicule.AddVehiculeActivity"></activity>
     </application>
 
 </manifest>

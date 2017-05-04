@@ -1,8 +1,6 @@
-package fr.projet.lokacar;
+package fr.projet.lokacar.ui.vehicule;
 
 import android.app.Activity;
-import android.app.Dialog;
-import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -15,6 +13,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 
+import fr.projet.lokacar.R;
 import fr.projet.lokacar.models.Vehicule;
 import fr.projet.lokacar.utils.Network;
 

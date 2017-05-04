@@ -1,12 +1,10 @@
-package fr.projet.lokacar.ui.home.listVehicule;
+package fr.projet.lokacar.ui.vehicule.listVehicule;
 
 
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -26,7 +24,7 @@ import com.google.gson.reflect.TypeToken;
 
 import java.util.List;
 
-import fr.projet.lokacar.AddVehiculeActivity;
+import fr.projet.lokacar.ui.vehicule.AddVehiculeActivity;
 import fr.projet.lokacar.R;
 import fr.projet.lokacar.models.Vehicule;
 import fr.projet.lokacar.ui.vehicule.VehiculeActivity;
