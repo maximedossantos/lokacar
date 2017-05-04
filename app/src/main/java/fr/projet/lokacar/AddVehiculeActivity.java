@@ -9,7 +9,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageSwitcher;
 import android.widget.ImageView;
 
 /**
@@ -26,12 +25,13 @@ public class AddVehiculeActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_connexion);
+        setContentView(R.layout.activity_add_vehicule);
 
         imageSwitcherListPhotoVehicule = (ImageView) this.findViewById(R.id.listPhotoVehicule);
         buttonAddPhotoVehicule = (Button)this.findViewById(R.id.addPhotoVehicule);
 
         buttonAddPhotoVehicule.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View view) {
                 Intent cameraIntent =new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
