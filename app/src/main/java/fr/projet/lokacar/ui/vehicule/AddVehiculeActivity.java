@@ -81,6 +81,8 @@ public class AddVehiculeActivity extends AppCompatActivity {
                 vehicule.setAnnee(editTextAnnee.getText().toString());
                 vehicule.setDin(editTextDin.getText().toString());
 
+                switch (case vehicule.getMarque()==null );
+
                 if (vehicule != null) {
                     if (Network.isNetworkAvailable(AddVehiculeActivity.this)) {
 

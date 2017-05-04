@@ -7,7 +7,7 @@ import android.os.Bundle;
 import java.util.Timer;
 import java.util.TimerTask;
 
-import fr.projet.lokacar.AddVehiculeActivity;
+import fr.projet.lokacar.ui.vehicule.AddVehiculeActivity;
 import fr.projet.lokacar.R;
 import fr.projet.lokacar.ui.home.HomeActivity;
 

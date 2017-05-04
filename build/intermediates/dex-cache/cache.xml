@@ -3,21 +3,48 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\mdossantos2015\AndroidStudioProjects\LokaCar\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="C:\Users\agirardeau2015\.android\build-cache\981294d4d81ed72a3277727babd0e7fa4e071bef\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="ae64efa5e2fbbd89d9be9fb740b03f95c5ecf7d4">
-        <dex dex="C:\Users\mdossantos2015\AndroidStudioProjects\LokaCar\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_f0e552e4b68e371383ccb1b5357df21ed3625a02\classes.dex" />
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="C:\Users\agirardeau2015\AndroidStudioProjects\lokacar\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_80a7888c40427f4215b1e1f455729046f681e909\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\mdossantos2015\AndroidStudioProjects\LokaCar\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="C:\Users\agirardeau2015\.android\build-cache\88610f4384215586708d16bd326a947c4ed6b30a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="C:\Users\agirardeau2015\AndroidStudioProjects\lokacar\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0acaa2d39dd453fa466058c0033d1f063d5dc204\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\agirardeau2015\AndroidStudioProjects\lokacar\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e99a3ae9ed2f63bee8d0ea2de783987bb750161f">
+        <dex dex="C:\Users\agirardeau2015\AndroidStudioProjects\lokacar\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_422d06d945440f7017f0893ec59019f07296d3c8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\agirardeau2015\AndroidStudioProjects\lokacar\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
-        <dex dex="C:\Users\mdossantos2015\AndroidStudioProjects\LokaCar\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_9c283e37b6f76e5518199d350dcb12746bc68a28\classes.dex" />
+        <dex dex="C:\Users\agirardeau2015\AndroidStudioProjects\lokacar\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_c74302e89cfe953f518d3acd36d66376520c36ae\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\agirardeau2015\.android\build-cache\5b53493b3d0c75faf44adc983dd70772f31d692d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="C:\Users\agirardeau2015\AndroidStudioProjects\lokacar\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1d8f299e37e7a79fb20e78e46b8e3c83ed47b43a\classes.dex" />
     </item>
 
 </items>
