@@ -7,6 +7,14 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/marqueVehicule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Marque"/>
+
+
     <EditText
         android:id="@+id/categorieVehicule"
         android:layout_width="match_parent"
@@ -51,6 +59,14 @@
         android:layout_height="wrap_content"
         android:inputType="date"
         android:hint="Année"/>
+
+    <EditText
+        android:id="@+id/dinVehicule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:hint="Din"/>
+
 
     <Button
         android:id="@+id/addPhotoVehicule"

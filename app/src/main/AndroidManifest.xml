@@ -24,6 +24,7 @@
         </activity>
         <activity android:name=".home.HomeActivity" />
         <activity android:name=".ConnexionActivity"></activity>
+        <activity android:name=".AddVehiculeActivity"></activity>
     </application>
 
 </manifest>
