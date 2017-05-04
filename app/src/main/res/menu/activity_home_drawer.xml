@@ -18,6 +18,19 @@
         </menu>
     </item>
 
+    <item android:title="Client">
+        <menu>
+            <item
+                android:id="@+id/nav_listClient"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Tout les vehicules" />
+            <item
+                android:id="@+id/nav_ajouterClient"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Véhicules disponibles" />
+        </menu>
+    </item>
+
     <!--<group android:checkableBehavior="single">
 
         <item
