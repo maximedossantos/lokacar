@@ -17,6 +17,12 @@ public class Vehicule implements Serializable {
     private int nbPlace;
     private Double tarifHoraire;
     private String annee;
+    private String din;
+    private String photo;
+
+    public String getPhoto() { return photo; }
+
+    public void setPhoto(String photo) { this.photo = photo; }
 
     public String getId() {
         return id;
@@ -30,11 +36,7 @@ public class Vehicule implements Serializable {
         return din;
     }
 
-    public void setDin(String din) {
-        this.din = din;
-    }
-
-    private String din;
+    public void setDin(String din) { this.din = din; }
 
     public String getMarque() {
         return marque;

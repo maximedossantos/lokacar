@@ -30,7 +30,7 @@ public class VehiculeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_vehicule);
 
-        imageViewVehicule = (ImageView) findViewById(R.id.imageVehicule);
+        imageViewVehicule = (ImageView) findViewById(R.id.imageViewVehicule);
         textViewCategorie = (TextView) findViewById(R.id.categorieVehicule);
         textViewMarque = (TextView) findViewById(R.id.marqueVehicule);
         textViewModel = (TextView) findViewById(R.id.modelVehicule);
@@ -49,11 +49,12 @@ public class VehiculeActivity extends AppCompatActivity {
             editTextKilometre.setText(Integer.valueOf(objet.getKilometre()).toString());
             textViewEnergie.setText(objet.getEnergie());
             textViewnbPlace.setText(Integer.valueOf(objet.getNbPlace()).toString());
+            editTextTarifHoraire.setText(Double.toString(objet.getTarifHoraire()));
             textViewAnnee.setText(objet.getAnnee());
 
-            /*Picasso.with(DetailsActivity.this)
-                    .load(objet.getImage())
-                    .into(imageRestau);*/
+            Picasso.with(VehiculeActivity.this)
+                    .load(objet.getPhoto())
+                    .into(imageViewVehicule);
         }
 
     }

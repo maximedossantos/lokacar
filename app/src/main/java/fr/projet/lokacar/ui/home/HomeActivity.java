@@ -1,9 +1,6 @@
 package fr.projet.lokacar.ui.home;
 
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -14,7 +11,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import fr.projet.lokacar.R;
-import fr.projet.lokacar.ui.home.listVehicule.ListVehiculeFragment;
+import fr.projet.lokacar.ui.vehicule.listVehicule.ListVehiculeFragment;
 
 public class HomeActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
