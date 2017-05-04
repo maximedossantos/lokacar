@@ -25,6 +25,7 @@
         </activity>
         <activity android:name=".ConnexionActivity" />
         <activity android:name=".ui.vehicule.VehiculeActivity" />
+        <activity android:name=".AddVehiculeActivity" />
         <activity
             android:name=".ui.home.HomeActivity"
             android:label="@string/title_activity_home"

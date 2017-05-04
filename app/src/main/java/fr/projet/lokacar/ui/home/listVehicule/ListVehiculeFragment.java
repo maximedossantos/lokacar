@@ -26,6 +26,7 @@ import com.google.gson.reflect.TypeToken;
 
 import java.util.List;
 
+import fr.projet.lokacar.AddVehiculeActivity;
 import fr.projet.lokacar.R;
 import fr.projet.lokacar.models.Vehicule;
 import fr.projet.lokacar.ui.vehicule.VehiculeActivity;
@@ -67,7 +68,10 @@ public class ListVehiculeFragment extends Fragment {
             @Override
             public void onClick(final View view) {
 
-                FastDialog.showDialogAddVehicule(getContext(), new DialogInterface.OnClickListener() {
+                Intent intent = new Intent(getContext(), AddVehiculeActivity.class);
+
+                startActivity(intent);
+                /*FastDialog.showDialogAddVehicule(getContext(), new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
                         Snackbar.make(view, "Super", Snackbar.LENGTH_LONG)
@@ -78,7 +82,7 @@ public class ListVehiculeFragment extends Fragment {
                     public void onClick(DialogInterface dialogInterface, int i) {
 
                     }
-                });
+                });*/
 
 
             }
