@@ -7,6 +7,7 @@ import android.os.Bundle;
 import java.util.Timer;
 import java.util.TimerTask;
 
+import fr.projet.lokacar.AddVehiculeActivity;
 import fr.projet.lokacar.R;
 import fr.projet.lokacar.ui.home.HomeActivity;
 
@@ -24,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void run() {
 
-                Intent intent = new Intent(MainActivity.this, AddVehiculeActivity.class);
+                Intent intent = new Intent(MainActivity.this, HomeActivity.class);
                 startActivity(intent);
 
             }

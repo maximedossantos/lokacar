@@ -18,6 +18,7 @@ import java.util.List;
 
 import fr.projet.lokacar.R;
 import fr.projet.lokacar.models.Vehicule;
+import fr.projet.lokacar.ui.home.listVehicule.VehiculeAdapter;
 import fr.projet.lokacar.utils.FastDialog;
 import fr.projet.lokacar.utils.Network;
 

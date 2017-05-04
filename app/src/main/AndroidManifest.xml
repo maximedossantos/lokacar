@@ -13,16 +13,18 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.main.MainActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/SplashTheme">
+            android:theme="@style/SplashTheme"
+            android:noHistory="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".home.HomeActivity" />
+        <activity android:name=".ui.home.HomeActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
         <activity android:name=".ConnexionActivity"></activity>
         <activity android:name=".AddVehiculeActivity"></activity>
     </application>
